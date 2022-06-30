@@ -24,7 +24,7 @@
 - Open the terminal.
 - Run cd \path\to\where\you\want\your\local\copy
 - Clone the repo
-   i. Run git@github.com:Sonickmumba/Hello-world.git
+   i. Run git@github.com:Sonickmumba/My-Portfolio.git
    ii. Run cd README/
 
 ### Install
