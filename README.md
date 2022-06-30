@@ -2,7 +2,7 @@
 
 # My Portfolio Project
 
-> In this project, i create my personal portfolio site with the help of Figma designs.
+> In this project, i create my personal portfolio site using a Figma designs.
 
 ## Built With
 
@@ -67,8 +67,8 @@
 👤 **Author1**
 
 - GitHub: [@Sonickmumba](https://github.com/Sonickmumba)
-- Twitter: [@Sonick](https://twitter.com/Sonick)
-- LinkedIn: [Sonick Mumba](https://linkedin.com/in/Sonick)
+- Twitter: [@Sonick](https://www.linkedin.com/in/sonick-m-301557a2/)
+- LinkedIn: [Sonick Mumba](https://www.linkedin.com/in/sonick-m-301557a2/)
 
 ## 🤝 Contributing
 
