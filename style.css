@@ -22,7 +22,7 @@ body {
 }
 
 #logo {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   width: 76px;
   height: 20px;
   text-decoration: none;
@@ -92,7 +92,7 @@ body {
   color: #fff;
 }
 
-/*--------Headline section----------*/
+/* --------Headline---------- */
 
 .headline-section {
   width: 375px;
@@ -111,7 +111,7 @@ body.active {
 }
 
 .headline {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
@@ -120,7 +120,7 @@ body.active {
 }
 
 .description {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
@@ -128,7 +128,7 @@ body.active {
 }
 
 .connect {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 500;
   margin-left: 24px;
