@@ -177,8 +177,8 @@ body.active {
   gap: 12px;
   width: 327px;
   height: 552px;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin: 0 auto;
   margin-top: 80px;
@@ -198,19 +198,18 @@ body.active {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 0px;
+  padding: 0.02px;
   gap: 12px;
   width: 295px;
   height: 288px;
   left: 16px;
 }
 
-
 .primary-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0.01px;
   gap: 12px;
   width: 295px;
   height: 80px;
@@ -219,14 +218,14 @@ body.active {
 .project-title {
   width: 295px;
   height: 36px;
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
-  margin-top: 0px;
-  margin-block-end: 0;
+  color: #172b4d;
+  margin-top: 0.01px;
+  margin-block-end: 0.01px;
 }
 
 .frame2 {
@@ -234,7 +233,7 @@ body.active {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 236px;
   height: 32px;
@@ -247,16 +246,15 @@ body.active {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0px;
+  padding: 8px 0;
   width: 55px;
   height: 32px;
-  margin-bottom: 0px;
 }
 
 .client h3 {
   width: 55px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -276,7 +274,7 @@ body.active {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0px;
+  padding: 8px 0;
   width: 100px;
   height: 32px;
   left: 67px;
@@ -285,12 +283,12 @@ body.active {
 .role h3 {
   width: 89px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
   top: 8px;
 }
 
@@ -303,7 +301,7 @@ body.active {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0px;
+  padding: 8px 0;
   width: 29px;
   height: 32px;
   left: 207px;
@@ -312,20 +310,19 @@ body.active {
 .year h3 {
   width: 29px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
   top: 8px;
 }
-
 
 .project-description {
   width: 295px;
   height: 76px;
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -339,7 +336,7 @@ body.active {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 8px;
   width: 203px;
   height: 24px;
@@ -356,27 +353,27 @@ body.active {
   padding: 4px 12px;
   width: 53px;
   height: 24px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   margin: 0 5px;
   border: 0;
 }
 
-.dev-tool1 p{
+.dev-tool1 p {
   width: 29px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070FF;
-  background: #EBEBFF;
+  color: #6070ff;
+  background: #ebebff;
   border-radius: 8px;
   top: 4px;
   left: 12px;
-  }
+}
 
 .dev-tool2 {
   display: flex;
@@ -385,22 +382,22 @@ body.active {
   padding: 4px 12px;
   width: 45px;
   height: 24px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
-  border: 0px;
-  left: 61px
+  border: 0;
+  left: 61px;
 }
 
 .dev-tool2 p {
   width: 21px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070FF;
+  color: #6070ff;
   top: 4px;
   left: 12px;
 }
@@ -412,30 +409,30 @@ body.active {
   padding: 4px 12px;
   width: 89px;
   height: 24px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
-  border: 0px;
+  border: 0;
   left: 114px;
 }
 
 .dev-tool3 p {
   width: 65px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070FF;
+  color: #6070ff;
   top: 4px;
   left: 12px;
 }
 
-.go-projects {
+/* .go-projects {
   width: 120px;
   height: 24px;
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -444,13 +441,13 @@ body.active {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #396DF2;
-}
+  color: #396df2;
+} */
 
 .projects {
   width: 295px;
   height: 72px;
-  top: 216px;  
+  top: 216px;
 }
 
 .go-projects {
@@ -459,28 +456,34 @@ body.active {
   padding: 12px;
   width: 140px;
   height: 48px;
-  left: 0px;
-  top: calc(50% - 48px/2);
-  border: 1px solid #6070FF;
+  left: 0;
+  top: calc(50% - 48px / 2);
+  border: 1px solid #6070ff;
   border-radius: 8px;
   background-color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  color: #396df2;
 }
 
 .project p {
   width: 100px;
   height: 24px;
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #396DF2;
+  color: #396df2;
   flex: none;
   order: 0;
 }
-
 
 /* contacts */
 
@@ -495,10 +498,6 @@ body.active {
 
 #headline-section-co.active {
   filter: blur(4px);
-}
-
-body.active {
-  overflow-y: hidden;
 }
 
 .headline-co {
@@ -559,10 +558,10 @@ body.active {
   transition: transform 0.3s ease-in-out;
 }
 
-.go-projects-co {
+/* .go-projects-co {
   width: 120px;
   height: 24px;
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -571,15 +570,14 @@ body.active {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #396DF2;
-}
+  color: #396df2;
+} */
 
 .projects-co {
   width: 295px;
   height: 72px;
   padding-left: 22px;
-  top: 216px; 
-
+  top: 216px;
 }
 
 .go-projects-co {
@@ -588,46 +586,49 @@ body.active {
   padding: 12px;
   width: 140px;
   height: 48px;
-  left: 0px;
-  top: calc(50% - 48px/2);
-  border: 1px solid #6070FF;
+  top: calc(50% - 48px / 2);
+  border: 1px solid #6070ff;
   border-radius: 8px;
   background-color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  color: #396df2;
 }
 
 .project-co p {
   width: 100px;
   height: 24px;
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #396DF2;
+  color: #396df2;
   flex: none;
   order: 0;
 }
-
 
 .skill-list {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 24px;
-  
   width: 326px;
   height: 464.15px;
   box-sizing: border-box;
-  
 }
 
 .frame12 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   width: 327px;
   height: 320.15px;
 }
@@ -644,18 +645,16 @@ body.active {
 
 .frame7 h3 {
   height: 24px;
-  left: 12px;
   right: 78px;
-  top: calc(50% - 24px/2);
-  font-family: 'Poppins';
+  top: calc(50% - 24px / 2);
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #000000;
-  top: 24px;
+  color: #000;
   left: 12px;
 }
 
@@ -685,30 +684,27 @@ body.active {
   gap: 20px;
   width: 295px;
   height: 66.72px;
-  /* Neutrals/N10 */
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   top: 12px;
   left: 12px;
 }
 
 .frame9 img {
-  /* position: absolute; */
   width: 48px;
   height: 48px;
   left: 12px;
-  top: calc(50% - 48px/2 - 0.36px);
-  background: url(Screen Shot 2020-07-11 at 16.29.32.png);
-  top: 9px;
-  left: 12px;
+  top: calc(50% - 48px / 2 - 0.36px);
 }
 
-.frame9 .span, .frame10 span, .frame11 span{
+.frame9 .span,
+.frame10 span,
+.frame11 span {
   height: 24px;
   left: 76px;
   right: 12px;
-  top: calc(50% - 24px/2 - 0.36px);
-  font-family: 'Poppins';
+  top: calc(50% - 24px / 2 - 0.36px);
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -718,15 +714,13 @@ body.active {
   color: #253858;
 }
 
-
-
 .frame10 {
   display: flex;
   align-items: center;
   gap: 20px;
   width: 295px;
   height: 66.72px;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   top: 90.72px;
   left: 12px;
@@ -736,10 +730,8 @@ body.active {
   width: 48px;
   height: 48px;
   left: 12px;
-  top: calc(50% - 48px/2 - 0.36px);
+  top: calc(50% - 48px / 2 - 0.36px);
   background: url(html5-512.png);
-  top: 9px;
-  left: 12px;
 }
 
 .frame11 {
@@ -748,7 +740,7 @@ body.active {
   gap: 20px;
   width: 295px;
   height: 66.72px;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   top: 169.43;
   left: 12px;
@@ -757,17 +749,15 @@ body.active {
 .frame11 img {
   width: 48px;
   height: 48px;
-  left: 12px;
-  top: calc(50% - 48px/2 - 0.36px);
+  top: calc(50% - 48px / 2 - 0.36px);
   background: url(images.jpg);
-  top: 9px;
   left: 12px;
 }
 
 .lang {
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   padding-left: 10px;
   gap: 12px;
 }
@@ -791,37 +781,18 @@ body.active {
   margin-top: -35px;
 }
 
-.frame17 h3, .frame18 h3 {
+.frame17 h3,
+.frame18 h3 {
   height: 24px;
   left: 12px;
   right: 78px;
-  top: calc(50% - 24px/2);
-  font-family: 'Poppins';
+  top: calc(50% - 24px / 2);
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #000000;
+  color: #000;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
