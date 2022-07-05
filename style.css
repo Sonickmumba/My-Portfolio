@@ -818,7 +818,7 @@ body.active {
   top: calc(50% - 48px / 2 - 0.36px);
 }
 
-.frame9 li,
+.frame9 p,
 .frame10 li,
 .frame11 li {
   height: 24px;
