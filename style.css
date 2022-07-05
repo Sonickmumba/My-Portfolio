@@ -558,7 +558,7 @@ body.active {
   transform: scale(1.1);
 }
 
-.project p {
+/* .project p {
   width: 100px;
   height: 24px;
   font-family: "Poppins", sans-serif;
@@ -571,7 +571,7 @@ body.active {
   color: #396df2;
   flex: none;
   order: 0;
-}
+} */
 
 /* contacts */
 
@@ -693,7 +693,7 @@ body.active {
   color: #396df2;
 }
 
-.project-co p {
+/* .project-co p {
   width: 100px;
   height: 24px;
   font-family: "Poppins", sans-serif;
@@ -706,7 +706,7 @@ body.active {
   color: #396df2;
   flex: none;
   order: 0;
-}
+} */
 
 /* skills */
 
