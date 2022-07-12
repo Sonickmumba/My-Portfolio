@@ -29,6 +29,7 @@ body {
   text-decoration: none;
   font-weight: 700;
   font-size: 18px;
+  line-height: 20px;
   color: #6070ff;
   transition: transform 0.4s ease-in-out;
 }
@@ -959,4 +960,132 @@ body.active {
   gap: 10px;
   align-items: center;
   margin: 0;
+}
+
+/* contact-section */
+
+.contact-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 375px;
+  height: 779px;
+  background: #6070ff url(./images/contact-form-shapes-mobile.png) 153px 21px no-repeat;
+  margin: 0 auto;
+  border-top-left-radius: 80px;
+  position: relative;
+  box-sizing: border-box;
+  margin-top: -85px;
+}
+
+.contact-header {
+  width: 375px;
+  height: 56px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #fff;
+  margin-top: 88px;
+  margin-bottom: 0;
+}
+
+textarea {
+  margin-bottom: 35px;
+  resize: none;
+  border: 0;
+}
+
+.contact-description {
+  width: 327px;
+  height: 122px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin-top: 0;
+  margin-bottom: 65px;
+}
+
+#contact-form {
+  width: 375px;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 48px;
+}
+
+#name {
+  width: 327px;
+  height: 48px;
+  outline: none;
+  font-size: 17px;
+  font-weight: 400;
+  color: #172b4d;
+  background-color: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 0 16px;
+}
+
+#email {
+  width: 327px;
+  height: 48px;
+  outline: none;
+  font-size: 17px;
+  font-weight: 400;
+  color: #172b4d;
+  background-color: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 0 16px;
+}
+
+#message {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  height: 170px;
+  padding: 15px 16px;
+  border-radius: 8px;
+  width: 327px;
+  box-sizing: border-box;
+}
+
+.enabled {
+  width: 140px;
+  height: 48px;
+  cursor: pointer;
+  border: none;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  line-height: 24px;
+  color: #6070ff;
+  background: #fff;
+  border-radius: 8px;
+  padding: 12px 16px 12px 16px;
+  transition: all 0.5s ease-in-out;
+}
+
+.enabled:hover {
+  background-color: #0c63e7;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.bottom-line {
+  width: 134px;
+  height: 5px;
+  position: relative;
+  top: 20px;
 }
