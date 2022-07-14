@@ -546,34 +546,23 @@ body.active {
   border: 1px solid #6070ff;
   border-radius: 8px;
   background-color: #fff;
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+}
+
+.go-projects a {
+  text-decoration: none;
+  color: #396df2;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  display: flex;
-  color: #396df2;
-  transition: transform 0.4s ease-in-out;
 }
 
 .go-projects:hover {
   transform: scale(1.1);
 }
-
-/* .project p {
-  width: 100px;
-  height: 24px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #396df2;
-  flex: none;
-  order: 0;
-} */
 
 /* contacts */
 
@@ -694,21 +683,6 @@ body.active {
   display: flex;
   color: #396df2;
 }
-
-/* .project-co p {
-  width: 100px;
-  height: 24px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #396df2;
-  flex: none;
-  order: 0;
-} */
 
 /* skills */
 
@@ -1257,7 +1231,7 @@ textarea {
   .works-card {
     box-sizing: border-box;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     width: 1153px;
     height: 496px;
     border-radius: 24px;
@@ -1269,7 +1243,6 @@ textarea {
     width: 100%;
     height: 396px;
     object-fit: contain;
-    float: right;
   }
 
   .left-block {
@@ -1321,12 +1294,6 @@ textarea {
     line-height: 52px;
     color: #091e42;
   }
-
-  /* .project-description {
-    width: 496px;
-    height: 70px;
-    font-size: 16px;
-  } */
 
   .frame2 {
     margin: 5px;
