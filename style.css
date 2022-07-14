@@ -543,14 +543,6 @@ body.active {
   height: 48px;
   left: 0;
   top: calc(50% - 48px / 2);
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-  background-color: #fff;
-  display: flex;
-  transition: transform 0.4s ease-in-out;
-}
-
-.go-projects a {
   text-decoration: none;
   color: #396df2;
   font-family: "Poppins", sans-serif;
@@ -558,6 +550,11 @@ body.active {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  background-color: #fff;
+  display: flex;
+  transition: transform 0.4s ease-in-out;
 }
 
 .go-projects:hover {
