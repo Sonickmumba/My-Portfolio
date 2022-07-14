@@ -100,8 +100,6 @@ body {
   color: #fff;
 }
 
-/* --------Headline---------- */
-
 .headline-section {
   width: 375px;
   height: 700px;
@@ -175,8 +173,6 @@ body.active {
   transition: transform 0.3s ease-in-out;
 }
 
-/* portfolio works */
-
 .works-card {
   box-sizing: border-box;
   display: flex;
@@ -191,8 +187,6 @@ body.active {
   border-radius: 16px;
   margin: 0 auto;
 }
-
-/* TONIC */
 
 .works-card-tonic {
   box-sizing: border-box;
@@ -561,8 +555,6 @@ body.active {
   transform: scale(1.1);
 }
 
-/* contacts */
-
 .contact-me {
   width: 375px;
   background-color: #fff;
@@ -680,8 +672,6 @@ body.active {
   display: flex;
   color: #396df2;
 }
-
-/* skills */
 
 .skill-list {
   display: flex;
@@ -934,8 +924,6 @@ body.active {
   margin: 0;
 }
 
-/* contact-section */
-
 .contact-flex {
   display: flex;
   flex-direction: column;
@@ -1099,8 +1087,6 @@ textarea {
     text-decoration-thickness: 3px;
   }
 
-  /* headline section */
-
   .headline-section {
     width: 100%;
     height: 846px;
@@ -1168,8 +1154,6 @@ textarea {
     margin: 0;
     padding: 0;
   }
-
-  /* works cards */
 
   .grid-container {
     display: grid;
@@ -1416,8 +1400,6 @@ textarea {
     padding: 0 24px;
     margin-left: -40px;
   }
-
-  /* contacts */
 
   .contact-flex {
     width: 100%;
