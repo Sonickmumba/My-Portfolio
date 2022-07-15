@@ -33,7 +33,15 @@ body {
   line-height: 20px;
   color: #6070ff;
   transition: transform 0.4s ease-in-out;
+  animation: rotate 5s;
 }
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 
 #logo:hover {
   transform: scale(1.1);
