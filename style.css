@@ -194,6 +194,7 @@ body.active {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .works-card-tonic {
@@ -209,6 +210,7 @@ body.active {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .snapshort {
@@ -218,6 +220,12 @@ body.active {
   border-radius: 8px;
   top: 16px;
   left: 16px;
+  transition: transform 0.4s ease-in-out;
+  /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.snapshort:hover {
+  transform: scale(1.05);
 }
 
 .left-block {
