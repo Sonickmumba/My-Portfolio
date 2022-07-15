@@ -537,8 +537,9 @@ body.active {
   margin-top: -5px;
 }
 
-.go-projects {
+.go-projects, .go-projects-co {
   box-sizing: border-box;
+  justify-content: center;
   align-items: center;
   padding: 12px;
   width: 140px;
@@ -560,6 +561,10 @@ body.active {
 }
 
 .go-projects:hover {
+  transform: scale(1.1);
+}
+
+.go-projects-co:hover {
   transform: scale(1.1);
 }
 
