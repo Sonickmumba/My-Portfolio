@@ -42,7 +42,6 @@ body {
   }
 }
 
-
 #logo:hover {
   transform: scale(1.1);
 }
@@ -544,7 +543,7 @@ body.active {
   margin-top: -5px;
 }
 
-.go-projects, .go-projects-co {
+.go-projects {
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
@@ -568,10 +567,6 @@ body.active {
 }
 
 .go-projects:hover {
-  transform: scale(1.1);
-}
-
-.go-projects-co:hover {
   transform: scale(1.1);
 }
 
@@ -690,7 +685,13 @@ body.active {
   font-size: 17px;
   line-height: 24px;
   display: flex;
+  justify-content: center;
   color: #396df2;
+  transition: transform 0.4s ease-in-out;
+}
+
+.go-projects-co:hover {
+  transform: scale(1.1);
 }
 
 .skill-list {
