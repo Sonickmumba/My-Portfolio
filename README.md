@@ -10,6 +10,10 @@
 - Frameworks: N/A
 - Technologies used: GIT, GITHUB, LINTERS
 
+## Live Demo
+
+Check **Live Demo** [here.](https://sonickmumba.github.io/My-Portfolio/)
+
 ## Getting Started
 
 > To get a local copy up and running follow these simple example steps.
@@ -62,12 +66,13 @@
 
 ### Deployment
 
+To run the project open the downloaded folder (after extraction) then run the "**index.html**" file in your browser.
 ## Authors
 
 👤 **Author1**
 
 - GitHub: [@Sonickmumba](https://github.com/Sonickmumba)
-- Twitter: [@Sonick](https://www.linkedin.com/in/sonick-m-301557a2/)
+- Twitter: [@Sonick](https://twitter.com/MumbaSonick)
 - LinkedIn: [Sonick Mumba](https://www.linkedin.com/in/sonick-m-301557a2/)
 
 ## 🤝 Contributing
