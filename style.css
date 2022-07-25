@@ -196,20 +196,8 @@ body.active {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.works-card-tonic {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 16px;
-  gap: 12px;
-  width: 327px;
+.card-tonic {
   height: 552px;
-  background: #fff;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-  margin: 0 auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .snapshort {
@@ -238,16 +226,8 @@ body.active {
   left: 16px;
 }
 
-.left-block-tonic {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-  padding: 0.02px;
-  gap: 20px;
-  width: 295px;
+.lb-tonic {
   height: 288px;
-  left: 16px;
 }
 
 .primary-container {
@@ -260,31 +240,8 @@ body.active {
   height: 80px;
 }
 
-.primary-container-tonic {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0.01px;
-  gap: 12px;
-  width: 295px;
-  height: 80px;
-}
-
 .project-title {
-  width: 290px;
-  height: 36px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  color: #172b4d;
-  margin-top: 0.01px;
-  margin-block-end: 0.01px;
-}
-
-.project-title-tonic {
-  width: 295px;
+  width: 293px;
   height: 36px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -309,16 +266,7 @@ body.active {
   margin-top: 40px;
 }
 
-.frame2-tonic {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  gap: 12px;
-  width: 236px;
-  height: 32px;
-  margin-block-end: 0;
+.frame-tonic {
   margin-top: 5px;
 }
 
@@ -408,63 +356,26 @@ body.active {
   margin-top: 30px;
 }
 
-.project-description-tonic {
-  width: 295px;
-  height: 76px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #344563;
+.tonic {
   margin-top: -10px;
 }
 
 .dev-tools {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   padding: 0;
   gap: 8px;
   width: 203px;
   height: 24px;
   top: 180px;
-  margin-top: -10px;
-  margin-bottom: 10px;
+  margin-top: -30px;
+  margin-bottom: 15px;
+  list-style-type: none;
 }
 
-.dev-tools-tonic {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  gap: 8px;
-  width: 203px;
+.dev-tools p {
   height: 24px;
-  top: 180px;
-  margin-top: -10px;
-  margin-bottom: 10px;
-}
-
-.dev-tool1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 4px 12px;
-  width: 53px;
-  height: 24px;
-  background: #ebebff;
-  border-radius: 8px;
-  margin: 0 5px;
-  border: 0;
-}
-
-.dev-tool1 p {
-  width: 29px;
-  height: 16px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -473,61 +384,8 @@ body.active {
   letter-spacing: 0.03em;
   color: #6070ff;
   background: #ebebff;
+  padding: 8px 8px 0 8px;
   border-radius: 8px;
-  top: 4px;
-  left: 12px;
-}
-
-.dev-tool2 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 12px;
-  width: 45px;
-  height: 24px;
-  background: #ebebff;
-  border-radius: 8px;
-  border: 0;
-  left: 61px;
-}
-
-.dev-tool2 p {
-  width: 21px;
-  height: 16px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-  top: 4px;
-  left: 12px;
-}
-
-.dev-tool3 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 12px;
-  width: 89px;
-  height: 24px;
-  background: #ebebff;
-  border-radius: 8px;
-  border: 0;
-  left: 114px;
-}
-
-.dev-tool3 p {
-  width: 65px;
-  height: 16px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
   top: 4px;
   left: 12px;
 }
@@ -535,12 +393,6 @@ body.active {
 .projects {
   width: 295px;
   height: 72px;
-}
-
-.projects-tonic {
-  width: 295px;
-  height: 72px;
-  margin-top: -5px;
 }
 
 .go-projects {
