@@ -48,7 +48,7 @@ body {
 
 .menu-nav-mobile {
   background-color: transparent;
-  transition: all 0.3s ease-in-out;
+  /* transition: all 0.3s ease-in-out; */
 }
 
 .menu-nav-mobile.show {
@@ -60,7 +60,7 @@ body {
   height: 100%;
   z-index: 1;
   background-color: rgba(96, 112, 255, 0.9);
-  margin: 0 100px;
+  margin-left: 100px;
 }
 
 #menu {
@@ -945,6 +945,10 @@ textarea {
   }
 
   .menu-nav-mobile {
+    display: none;
+  }
+
+  .menu-nav-mobile.show {
     display: none;
   }
 

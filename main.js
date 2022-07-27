@@ -11,13 +11,13 @@ menuBar.addEventListener('click', (e) => {
   menuBar.classList.toggle('show');
 });
 
-mobileLinks = document.querySelectorAll(".mobile-link");
-Array.from(mobileLinks).forEach(function(link){
-  link.addEventListener("click", function(e){
+const mobileLinks = document.querySelectorAll('.mobile-link');
+Array.from(mobileLinks).forEach((link) => {
+  link.addEventListener('click', (e) => {
     e.preventDefault();
-    menuNavMobile.classList.toggle("show");
+    menuNavMobile.classList.toggle('show');
     body.classList.toggle('show');
     headline.classList.toggle('show');
     menuBar.classList.toggle('show');
   });
-});``
+});
