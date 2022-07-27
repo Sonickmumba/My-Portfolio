@@ -48,7 +48,6 @@ body {
 
 .menu-nav-mobile {
   background-color: transparent;
-  /* transition: all 0.3s ease-in-out; */
 }
 
 .menu-nav-mobile.show {
