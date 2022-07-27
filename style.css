@@ -55,11 +55,12 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 375px;
+  width: 100%;
   height: 100%;
   z-index: 1;
   background-color: rgba(96, 112, 255, 0.9);
-  margin-left: 100px;
+  backdrop-filter: blur(6px);
+  box-sizing: border-box;
 }
 
 #menu {
@@ -123,6 +124,20 @@ body.show {
   font-size: 32px;
   font-weight: 600;
   color: #fff;
+}
+
+.line-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 290px;
+}
+
+.bottom-line1 {
+  height: 8px;
+  position: relative;
+  top: 90px;
+  margin-right: 40px;
 }
 
 .headline-section {
