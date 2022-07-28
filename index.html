@@ -14,9 +14,9 @@
         <a href="#" id="logo">Sonick</a>
         <nav>
             <ul id="nav">
-                <li class="nav-link"><a href="#">Portfolio</a></li>
-                <li class="nav-link"><a href="#">About</a></li>
-                <li class="nav-link"><a href="#">Contact</a></li>
+                <li class="nav-link"><a href="#works">Portfolio</a></li>
+                <li class="nav-link"><a href="#about">About</a></li>
+                <li class="nav-link"><a href="#contact">Contact</a></li>
             </ul>
             <div class="menu-nav-mobile">
                 <div id="menu">
@@ -26,13 +26,16 @@
                 </div>
                 <ul id="link">
                     <li class="mobile-link">
-                        <a href="#">Portfolio</a>
+                        <a href="#works">Portfolio</a>
                     </li>
                     <li class="mobile-link">
-                        <a href="#">About</a>
+                        <a href="#about">About</a>
                     </li>
                     <li class="mobile-link">
-                        <a href="#">Contact</a>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <li class = line-div>
+                        <img src="./images/Shape.svg" alt="" class="bottom-line1">
                     </li>
                 </ul>
             </div>
@@ -65,7 +68,7 @@
     </section>
 
 
-    <main class="grid-container">
+    <main class="grid-container" id="works">
         <section class="works-card card-tonic">
             <img class="snapshort tonic-img" src="./images/Snapshoot-Portfolio.svg" alt="snapshoot">
             <div class="left-block lb-tonic">
@@ -182,7 +185,7 @@
         </section>
     </main>
     
-    <section class="contact-me">
+    <section class="contact-me" id="about">
         <div class="headline-section-co">
             <div id="headline-container-co">
                 <h1 class="headline-co">
@@ -253,7 +256,7 @@
     </section>
 
     <section class="contacts">
-        <div class="contact-flex">
+        <div class="contact-flex" id="contact">
             <h2 class="contact-header">Contact me</h2>
             <p class="contact-description">If you have an application you are interested in developing, 
                 a feature that you need built or a project that needs coding. 
@@ -268,6 +271,6 @@
             <img src="./images/Shape.svg" alt="" class="bottom-line">
         </div>
     </section>
-    
+    <script src="main.js"></script>
 </body>
 </html>
