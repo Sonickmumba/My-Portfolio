@@ -1299,7 +1299,7 @@ textarea {
     margin-bottom: -500px;
   }
 
-  .works-card-tonic {
+  /* .works-card-tonic {
     flex-direction: row;
     padding: 24px;
     width: 1154px;
@@ -1307,7 +1307,7 @@ textarea {
     border-radius: 24px;
     margin-left: 142px;
     margin-right: 142px;
-  }
+  } */
 
   .tonic-img {
     width: 100%;
@@ -1315,30 +1315,30 @@ textarea {
     object-fit: contain;
   }
 
-  .left-block-tonic {
+  /* .left-block-tonic {
     gap: 24px;
     align-items: flex-start;
     padding: 24px 12px;
     width: 544px;
     height: 445px;
-  }
+  } */
 
-  .primary-container-tonic {
+  /* .primary-container-tonic {
     padding: 0;
     width: 496px;
     height: 98px;
     margin-top: 48px;
-  }
+  } */
 
-  .project-description-tonic {
+  /* .project-description-tonic {
     width: 496px;
     height: 50px;
     font-size: 16px;
-  }
+  } */
 
-  .projects-tonic {
+  /* .projects-tonic {
     margin-top: 100px;
-  }
+  } */
 
   .go-projects {
     margin-top: -100px;
