@@ -143,3 +143,67 @@ function emailValidator(form, email, errorMessage) {
 }
 
 emailValidator(form, email, errorMessage);
+
+// Store form data
+
+const nameInput = document.querySelector('#name');
+const textMessage = document.querySelector('#message');
+
+const dataInput = {};
+const storage = window.localStorage;
+
+// function to Check if the storage is available
+function storageAvailable(type) {
+  let storage;
+  try {
+    storage = window[type];
+    const x = '__storage_test__';
+    storage.setItem(x, x);
+    storage.removeItem(x);
+    return true;
+  } catch (e) {
+    return e instanceof DOMException && (
+      e.code === 22
+      || e.code === 1014
+      || e.name === 'QuotaExceededError'
+      || e.name === 'NS_ERROR_DOM_QUOTA_REACHED') && (storage && storage.length !== 0);
+  }
+}
+
+// function to retrieve the data from the local storage
+function retrieveFormData() {
+  if (!storageAvailable('localStorage')) {
+    return false;
+  }
+  const dataStored = storage.getItem('formData');
+  const data = JSON.parse(dataStored);
+  return data;
+}
+
+// function to populate the form
+function populateForm(dataForm) {
+  if (dataForm) {
+    if (dataForm.name) {
+      nameInput.value = dataForm.name;
+    }
+    if (dataForm.email) {
+      email.value = dataForm.email;
+    }
+    if (dataForm.message) {
+      textMessage.value = dataForm.message;
+    }
+  }
+}
+
+const dataForm = retrieveFormData();
+populateForm(dataForm);
+
+const inputs = [nameInput, email, textMessage];
+
+inputs.forEach((formInput) => formInput.addEventListener('change', () => {
+  dataInput.name = nameInput.value;
+  dataInput.email = email.value;
+  dataInput.message = textMessage.value;
+  const storeData = JSON.stringify(dataInput);
+  storage.setItem('formData', storeData);
+}));
