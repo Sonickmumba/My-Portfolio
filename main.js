@@ -117,11 +117,9 @@ workButtons.forEach((btn) => btn.addEventListener('click', () => {
   populatePopup(Array.prototype.indexOf.call(workButtons, btn));
 }));
 
-closeBtn.addEventListener('click', () => {
-  overlayWindow.classList.remove('pop');
-  body.classList.remove('pop');
-  popupBg.classList.remove('pop');
-});
+// Add closing button function
+
+
 
 // Validate form //
 
