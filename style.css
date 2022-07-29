@@ -914,11 +914,11 @@ textarea {
 }
 
 .error-message {
-  font-size: 16px;
+  font-size: 12px;
   color: #8c0e0c;
-  font-weight: 400;
+  font-weight: 100;
   position: relative;
-  bottom: 20px;
+  margin-left: -105px;
 }
 
 #message {
@@ -963,7 +963,7 @@ textarea {
   width: 134px;
   height: 5px;
   position: relative;
-  top: 20px;
+  top: 15px;
 }
 
 /* popup */
@@ -1525,6 +1525,14 @@ textarea {
 
   .enabled {
     margin: 0 154px;
+  }
+
+  .error-message {
+    font-size: 16px;
+    color: #8c0e0c;
+    font-weight: 400;
+    position: relative;
+    margin-left: 10px;
   }
 
   .bottom-line {
