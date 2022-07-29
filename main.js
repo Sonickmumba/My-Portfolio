@@ -171,14 +171,7 @@ function storageAvailable(type) {
 }
 
 // function to retrieve the data from the local storage
-function retrieveFormData() {
-  if (!storageAvailable('localStorage')) {
-    return false;
-  }
-  const dataStored = storage.getItem('formData');
-  const data = JSON.parse(dataStored);
-  return data;
-}
+
 
 // function to populate the form
 function populateForm(dataForm) {
