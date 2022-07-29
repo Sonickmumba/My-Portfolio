@@ -229,10 +229,6 @@ body.show {
   height: 552px;
 }
 
-/* .card-tonic {
-  height: 552px;
-} */
-
 .snapshort {
   width: 295px;
   height: 220px;
@@ -298,14 +294,6 @@ body.show {
   margin-block-end: 0;
   margin-top: 35px;
 }
-
-/* .frame2:nth-child(2n+1) {
-  margin-top: -80px;
-} */
-
-/* .frame-tonic {
-  margin-top: 30px;
-} */
 
 .client {
   display: flex;
@@ -1299,46 +1287,11 @@ textarea {
     margin-bottom: -500px;
   }
 
-  /* .works-card-tonic {
-    flex-direction: row;
-    padding: 24px;
-    width: 1154px;
-    height: 496px;
-    border-radius: 24px;
-    margin-left: 142px;
-    margin-right: 142px;
-  } */
-
   .tonic-img {
     width: 100%;
     height: 396px;
     object-fit: contain;
   }
-
-  /* .left-block-tonic {
-    gap: 24px;
-    align-items: flex-start;
-    padding: 24px 12px;
-    width: 544px;
-    height: 445px;
-  } */
-
-  /* .primary-container-tonic {
-    padding: 0;
-    width: 496px;
-    height: 98px;
-    margin-top: 48px;
-  } */
-
-  /* .project-description-tonic {
-    width: 496px;
-    height: 50px;
-    font-size: 16px;
-  } */
-
-  /* .projects-tonic {
-    margin-top: 100px;
-  } */
 
   .go-projects {
     margin-top: -100px;
@@ -1353,6 +1306,10 @@ textarea {
     border-radius: 24px;
     margin: 0 142px;
     padding: 24px 36px 24px 24px;
+  }
+
+  .works-card:nth-child(2n + 1) {
+    height: 496px;
   }
 
   .works-card:nth-child(2n) {
@@ -1397,15 +1354,6 @@ textarea {
     width: 8px;
     height: 8px;
   }
-
-  /* .project-title-tonic {
-    width: 496px;
-    height: 46px;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    color: #091e42;
-  } */
 
   .project-title {
     width: 496px;

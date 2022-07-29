@@ -118,29 +118,8 @@ workButtons.forEach((btn) => btn.addEventListener('click', () => {
 }));
 
 // Add closing button function
-
 closeBtn.addEventListener('click', () => {
   overlayWindow.classList.remove('pop');
   body.classList.remove('pop');
   popupBg.classList.remove('pop');
 });
-
-// Validate form //
-
-const form = document.getElementById('contact-form');
-const email = document.getElementById('email');
-const errorMessage = document.querySelector('.error-message');
-
-function emailValidator(form, email, errorMessage) {
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    if (email.value === email.value.toLowerCase()) {
-      return form.submit();
-    }
-    email.classList.add('show');
-    errorMessage.innerHTML = 'Please enter your email in lower case!!!';
-    return errorMessage;
-  });
-}
-
-emailValidator(form, email, errorMessage);
