@@ -196,7 +196,7 @@ function populateForm(dataForm) {
 }
 
 const dataForm = retrieveFormData();
-populateForm(dataForm);
+
 
 const inputs = [nameInput, email, textMessage];
 
