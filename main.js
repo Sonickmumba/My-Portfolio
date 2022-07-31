@@ -126,7 +126,7 @@ closeBtn.addEventListener('click', () => {
 
 // Validate form //
 
-const form = document.getElementById('contact-form');
+const form = document.getElementById('form');
 const email = document.getElementById('email');
 const errorMessage = document.querySelector('.error-message');
 
