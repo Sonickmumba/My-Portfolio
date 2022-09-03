@@ -31,7 +31,7 @@ const workCards = [
     image: './images/My-To-do-listc.png',
     technologies: ['html', 'css', 'javaScript', 'Webpack'],
     'live link': 'https://sonickmumba.github.io/To-do-list/dist/.',
-    'source link': 'https://github.com/Sonickmumba/My-Portfolio',
+    'source link': 'https://github.com/Sonickmumba/To-do-list',
   },
   {
     name: 'Multi-Post Stories',
