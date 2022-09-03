@@ -26,7 +26,7 @@ const worksDiv = document.getElementById('works');
 
 const workCards = [
   {
-    name: "Today's To Do",
+    name: 'To Do List',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     image: './images/My-To-do-listc.png',
     technologies: ['html', 'css', 'javaScript', 'Webpack'],
