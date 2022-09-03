@@ -26,11 +26,11 @@ const worksDiv = document.getElementById('works');
 
 const workCards = [
   {
-    name: 'Tonic',
+    name: "Today's To Do",
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    image: './images/Snapshoot-Portfolio.svg',
-    technologies: ['html', 'css', 'javaScript'],
-    'live link': 'https://sonickmumba.github.io/My-Portfolio/',
+    image: './images/My-To-do-listc.png',
+    technologies: ['html', 'css', 'javaScript', 'Webpack'],
+    'live link': 'https://sonickmumba.github.io/To-do-list/dist/.',
     'source link': 'https://github.com/Sonickmumba/My-Portfolio',
   },
   {
